@@ -1,0 +1,223 @@
+```
+Question:
+What is the purpose of mulearn?
+
+Answer:
+mulearn is an online learning platform designed to help users develop skills and knowledge through completing tasks, receiving feedback, and engaging with a supportive community.
+```
+
+```
+Question:
+How are tasks assigned in mulearn?
+
+Answer:
+Tasks are assigned based on your current level and interests. As you progress through the levels, you'll gain access to more challenging and diverse tasks that match your skill set.
+```
+
+```
+Question:
+Can I collaborate with other users on tasks?
+
+Answer:
+Yes, collaboration is encouraged in mulearn. You can work with other users on tasks by discussing ideas, sharing resources, and providing feedback in the relevant task discussion channels.
+```
+
+```
+Question:
+How long does it take for my task to be appraised?
+
+Answer:
+The appraisal time can vary depending on the task complexity and appraiser availability. Generally, appraisers aim to provide feedback or approval within a few hours to a couple of days after submission.
+```
+
+```
+Question:
+Is there a limit to the number of tasks I can submit?
+
+Answer:
+There is no strict limit on the number of tasks you can submit. However, it's essential to focus on quality over quantity and ensure that each submission meets the required guidelines and standards.
+```
+
+```
+Question:
+What happens if my task submission is rejected?
+
+Answer:
+If your task submission is rejected, you'll receive feedback from the appraiser explaining the reason for rejection. You can use this feedback to improve your work and resubmit the task for appraisal.
+```
+
+```
+Question:
+Can I suggest new tasks or improvements to existing tasks?
+
+Answer:
+Yes, mulearn encourages users to contribute ideas for new tasks or improvements to existing ones. You can share your suggestions in the dedicated task suggestion channel or by contacting a moderator.
+```
+
+```
+Question:
+How do I change my task preferences or interests?
+
+Answer:
+To change your task preferences or interests, visit the mulearn website dashboard and update your profile settings. This will help the platform assign tasks that better align with your interests and goals.
+```
+
+```
+Question:
+What is the role of moderators in mulearn?
+
+Answer:
+Moderators are experienced users who help maintain a positive and productive environment in mulearn. They provide guidance, enforce rules, and assist users with any issues or concerns that arise.
+```
+
+```
+Question:
+How can I report inappropriate behavior or content?
+
+Answer:
+If you encounter inappropriate behavior or content, please report it to a moderator or use the designated reporting channel. mulearn takes such reports seriously and will take appropriate action to maintain a safe and respectful community.
+```
+
+```
+Question:
+How do I change my display name or profile picture in mulearn?
+
+Answer:
+To change your display name or profile picture, update your settings on the platform you're using (e.g., Discord) or the mulearn website. Changes made will reflect across the mulearn platform.
+```
+
+```
+Question:
+Can I share resources or tools I've found helpful with the community?
+
+Answer:
+Yes, sharing helpful resources and tools is encouraged in mulearn. You can post them in the relevant discussion channels or share them directly with other users.
+```
+
+```
+Question:
+Are there any community events or challenges in mulearn?
+
+Answer:
+mulearn occasionally hosts community events, challenges, or contests to encourage user engagement and collaboration. Keep an eye on announcements for upcoming events and participate to enhance your learning experience.
+```
+
+```
+Question:
+How can I provide feedback or suggestions about mulearn?
+
+Answer:
+Your feedback and suggestions are valuable for the continuous improvement of mulearn. You can share your thoughts in the dedicated feedback channel or by contacting a moderator or administrator.
+```
+
+```
+Question:
+Can I invite my friends to join mulearn?
+
+Answer:
+Yes, you can invite your friends to join mulearn by sharing the platform's website or invite link. The more users in the community, the more dynamic and enriching the learning experience becomes.
+```
+
+```
+Question:
+Is there a mobile app for mulearn?
+
+Answer:
+As of now, there is no dedicated mobile app for mulearn. However, you can access the platform through your mobile device's web browser or by using the Discord mobile app to participate in the community.
+```
+
+```
+Question:
+Are there any fees or costs associated with using mulearn?
+
+Answer:
+mulearn is a free platform designed to support learning and skill development. There are no fees or costs for users to participate in tasks, receive feedback, or engage with the community.
+```
+
+```
+Question:
+How can I stay updated on news and announcements related to mulearn?
+
+Answer:
+To stay updated on news and announcements, follow the official mulearn social media accounts, subscribe to the newsletter, and regularly check the announcements channel within the platform.
+```
+
+```
+Question:
+Can I delete my mulearn account?
+
+Answer:
+If you wish to delete your mulearn account, please contact a moderator or administrator. They will guide you through the account deletion process and ensure that your personal data is removed from the platform.
+```
+
+```
+Question:
+What are the benefits of having a higher level in mulearn?
+
+Answer:
+Higher levels in mulearn grant you access to more advanced tasks, exclusive channels, and additional perks. As you progress, you'll also gain recognition within the community for your contributions and expertise.
+```
+
+```
+Question:
+How can I check my current level and karma points?
+
+Answer:
+To check your current level and karma points, type `/my-stats` in a text channel. Aron Chettan bot will display your current level, karma points, and other relevant information.
+```
+
+```
+Question:
+How do I submit a task for appraisal?
+
+Answer:
+To submit a task for appraisal, post your completed work in the appropriate task submission channel. Make sure to follow the guidelines and format specified for the task. Once submitted, appraisers will review your work and provide feedback or approval.
+```
+
+```
+Question:
+What should I do if I have a question or need help with a task?
+
+Answer:
+If you have a question or need assistance with a task, feel free to ask for help in the relevant task discussion channel. The community and moderators are there to support and guide you through the process.
+```
+
+```
+Question:
+How can I become an appraiser in mulearn?
+
+Answer:
+To become an appraiser, you must first reach a certain level of expertise and demonstrate a strong understanding of the tasks and guidelines. Once you meet the requirements, you can apply for the appraiser role through the mulearn website or by contacting a moderator.
+```
+
+```
+Question:
+I've done what was needed to reach level 4 with 1600 karma points, and I finished tasks for levels 5 and 6 too. But I didn't move up to the higher levels like I expected.
+
+Answers:
+type `/sync-level` in a text channel to update your level manually.
+```
+
+```
+Question:
+What is muid
+
+Answer:
+muid is a unique identity given to each user in mulearn
+```
+
+```
+Question:
+how to connect muid
+
+Answer:
+go to dashboard over at mulearn website and get ur muid  , copy that and paste it in discord inside aron chettan bots DM
+```
+
+```
+Question:
+Didnt get karma , how to get karma
+
+Answer:
+To receive karma , after you have finished task and posted in the appropriate channel, appraisers must first check mark on your discord then aron bot should award karma. Then only will you receive karma 
+```
