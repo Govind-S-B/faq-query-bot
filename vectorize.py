@@ -1,7 +1,8 @@
 import re
 import chromadb
+import uuid
 
-# embeddings = HuggingFaceEmbeddings(model_name="infgrad/stella-base-en-v2")
+# reference : https://github.com/Govind-S-B/pdf-to-text-chroma-search
 
 from sentence_transformers import SentenceTransformer
 model = SentenceTransformer('infgrad/stella-base-en-v2')
@@ -18,15 +19,24 @@ def batch_process_test_data(document):
     
     return content
 
+client = chromadb.PersistentClient(path="./db")
+collection = client.create_collection(name="faq_data")
+
 file_content = open("faq_test_data.txt").read()
-elem = (batch_process_test_data(file_content))
+data_list = batch_process_test_data(file_content)
 
-for i in elem:
-    print("---")
-    print(i)
-    print("---")
+documents_list = []
+embeddings_list = []
+ids_list = []
 
-vector = model.encode(elem[0])
-print(vector)
-print(elem[0])
+for data_chunk in data_list:
+    documents_list.append(data_chunk)
+    vector = model.encode(data_chunk)
+    embeddings_list.append(vector)
+    ids_list.append(str(uuid.uuid1()))
 
+collection.add(
+    embeddings=embeddings_list,
+    documents=documents_list,
+    ids=ids_list
+)
