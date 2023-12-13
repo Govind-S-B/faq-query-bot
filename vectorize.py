@@ -2,6 +2,9 @@ from uuid import uuid1
 import re
 import chromadb
 from chromadb.utils import embedding_functions
+import time
+
+st = time.time()
 
 def batch_process_test_data(document):
     # Find all content within the backticks
@@ -15,7 +18,7 @@ def batch_process_test_data(document):
 # DB INIT
 
 client = chromadb.EphemeralClient()
-embedding_func = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="infgrad/stella-base-en-v2",)
+embedding_func = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="BAAI/bge-base-en-v1.5",)
 collection = client.get_or_create_collection(name="faq", embedding_function=embedding_func)
 
 # WRITE SECTION
@@ -43,3 +46,7 @@ fetched_doc = collection.query(
  )["documents"][0][0]
 
 print(fetched_doc)
+
+ht = time.time()
+
+print(ht-st)
